@@ -16,3 +16,68 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* ============== Мої зміни ================ */
+button {
+  background-color: rgb(76, 204, 204);
+  padding: 7px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  border-color: currentColor;
+  border-color: rgb(76, 204, 204);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+input {
+  padding: 7px 10px;
+  min-width: 320px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(176, 238, 238);
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  border-color: rgb(176, 238, 238);
+}
+
+.timer {
+  display: flex;
+  column-gap: 50px;
+  margin-left: 15px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.value {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(19, 112, 112);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(1, 43, 43);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
